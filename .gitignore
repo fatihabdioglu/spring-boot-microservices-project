@@ -22,4 +22,4 @@ generated/
 .project
 
 # Terraform
-**/.terraform/
+**/.terraform/*
