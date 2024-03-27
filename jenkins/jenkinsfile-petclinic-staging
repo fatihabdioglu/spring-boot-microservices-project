@@ -12,7 +12,7 @@ pipeline {
         RANCHER_CONTEXT="c-2ttsf:p-b8vwh" 
        //First part of projectID
         CLUSTERID="c-2ttsf"
-        RANCHER_CREDS=credentials('rancher-petclinic-credentials')
+        RANCHER_CREDS=credentials('fatih-aws')
     }
     stages {
         stage('Package Application') {
